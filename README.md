@@ -25,3 +25,27 @@ npm start
 2. Instead, add `Create Account` and `Login Account` buttons
 
 In order to submit your test, create a github repository and push all your changes to this repository and share the repository link with your recruiter.
+
+## Changes Made
+
+### Header Component (`src/components/Header/Header.tsx`)
+
+**Removed:**
+
+- SUBSCRIPTIONS button (with DiamondRoundedIcon)
+- SCRIPTS button (with CodeRoundedIcon)
+
+**Added:**
+
+- "Create Account" button (pink) with PersonAddRoundedIcon → links to `/signup`
+- "Login Account" button (blue) with LoginRoundedIcon → links to `/login`
+
+**Updated:**
+
+- Burger menu items to match the new navigation
+- Import statements to include new icons and remove unused ones
+
+**Routes:**
+
+- `/signup` - Registration page (existing)
+- `/login` - Login page (existing)
